@@ -1,0 +1,10 @@
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\BTL_HuongSuKien.exe.config
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\BTL_HuongSuKien.exe
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\BTL_HuongSuKien.pdb
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.AssemblyReference.cache
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Properties.Resources.resources
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.GenerateResource.cache
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.CoreCompileInputs.cache
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.exe
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.pdb
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Form1.resources
