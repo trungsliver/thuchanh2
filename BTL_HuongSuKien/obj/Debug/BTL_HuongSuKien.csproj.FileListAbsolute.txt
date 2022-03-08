@@ -18,3 +18,23 @@ C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Secu
 C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.CopyComplete
 C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Forms.Form2.resources
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\BTL_HuongSuKien.exe.config
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\BTL_HuongSuKien.exe
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\BTL_HuongSuKien.pdb
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Permissions.dll
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Permissions.xml
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csprojAssemblyReference.cache
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Form1.resources
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Forms.Form2.resources
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Properties.Resources.resources
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.GenerateResource.cache
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.CoreCompileInputs.cache
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.CopyComplete
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.exe
+C:\Users\Duc Trung\Desktop\github\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.pdb
