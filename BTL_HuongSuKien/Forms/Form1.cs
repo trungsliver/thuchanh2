@@ -1,4 +1,6 @@
-﻿using System.Data;
+﻿using BTL_HuongSuKien.Forms;
+using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -23,7 +25,7 @@ namespace BTL_HuongSuKien
             check = check | checktxt(txtSdt);
             if (check==false)
             {
-                string cont = @"Data Source=DESKTOP-Q609H2F;Initial Catalog=BTL_QLNS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+                string cont = ConfigurationManager.ConnectionStrings["conect"].ConnectionString;
                 SqlConnection cnt = new SqlConnection(cont);
                 cnt.Open();
                 SqlCommand cmd = new SqlCommand();
@@ -126,7 +128,7 @@ namespace BTL_HuongSuKien
         private void btnSua_Click(object sender, System.EventArgs e)
         {
             int ma= int.Parse(dgvNhanvien.CurrentRow.Cells["Mã nhân viên"].Value.ToString());
-            string cont = @"Data Source=DESKTOP-Q609H2F;Initial Catalog=BTL_QLNS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string cont = ConfigurationManager.ConnectionStrings["conect"].ConnectionString;
             SqlConnection cnt = new SqlConnection(cont);
             cnt.Open();
             SqlCommand cmd = new SqlCommand();
@@ -150,7 +152,7 @@ namespace BTL_HuongSuKien
         private void btnXoa_Click(object sender, System.EventArgs e)
         {
             int ma = int.Parse(dgvNhanvien.CurrentRow.Cells["Mã nhân viên"].Value.ToString());
-            string cont = @"Data Source=DESKTOP-Q609H2F;Initial Catalog=BTL_QLNS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string cont = ConfigurationManager.ConnectionStrings["conect"].ConnectionString;
             SqlConnection cnt = new SqlConnection(cont);
             cnt.Open();
             SqlCommand cmd = new SqlCommand();
@@ -168,6 +170,31 @@ namespace BTL_HuongSuKien
                 load_dgvNhanvien(dt.getTable(getdata));
             }
             else MessageBox.Show("Xóa không thành công");
+        }
+
+        private void btnTimkiem_Click(object sender, System.EventArgs e)
+        {
+            
+            if (checktxt(txtHoten) == false)
+            {
+                connectDB dt = new connectDB();
+                string hoten = txtHoten.Text;
+                string getdt = "SELECT * FROM nhan_vien WHERE ten_nhan_vien LIKE '%" + hoten + "%'";
+                load_dgvNhanvien(dt.getTable(getdt));
+            }
+            else
+            {
+                MessageBox.Show("Chua nhap trong text box ho ten!");
+            }
+
+
+        }
+
+        private void phongBànToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            Form2 mnitem2 = new Form2();
+            mnitem2.MdiParent = this;
+            mnitem2.Show();
         }
     }
 }

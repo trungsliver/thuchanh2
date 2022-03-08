@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 namespace BTL_HuongSuKien
@@ -9,7 +10,7 @@ namespace BTL_HuongSuKien
         public SqlConnection getConnect()
         {
             //connect string here
-            String strConn = @"Data Source=DESKTOP-Q609H2F;Initial Catalog=BTL_QLNS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            String strConn = ConfigurationManager.ConnectionStrings["conect"].ConnectionString;
             return new SqlConnection(strConn);
         }
         public DataTable getTable(String sql)

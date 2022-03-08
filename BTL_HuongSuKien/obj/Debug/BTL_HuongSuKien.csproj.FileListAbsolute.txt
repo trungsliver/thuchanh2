@@ -8,3 +8,13 @@ C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSu
 C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.exe
 C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.pdb
 C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Form1.resources
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.AccessControl.dll
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Permissions.dll
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.AccessControl.xml
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Permissions.xml
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.csproj.CopyComplete
+C:\Users\KHANG\Documents\Gitdemo\thuchanh2\BTL_HuongSuKien\obj\Debug\BTL_HuongSuKien.Forms.Form2.resources
