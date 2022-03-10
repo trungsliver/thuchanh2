@@ -41,25 +41,28 @@ namespace BTL_HuongSuKien.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 27);
+            this.label1.Location = new System.Drawing.Point(30, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 17);
+            this.label1.Size = new System.Drawing.Size(62, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Phòng ban:";
             // 
             // cboxPhongban
             // 
             this.cboxPhongban.FormattingEnabled = true;
-            this.cboxPhongban.Location = new System.Drawing.Point(127, 20);
+            this.cboxPhongban.Location = new System.Drawing.Point(95, 16);
+            this.cboxPhongban.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboxPhongban.Name = "cboxPhongban";
-            this.cboxPhongban.Size = new System.Drawing.Size(164, 24);
+            this.cboxPhongban.Size = new System.Drawing.Size(124, 21);
             this.cboxPhongban.TabIndex = 1;
             // 
             // btnHiendsNVPB
             // 
-            this.btnHiendsNVPB.Location = new System.Drawing.Point(331, 21);
+            this.btnHiendsNVPB.Location = new System.Drawing.Point(248, 17);
+            this.btnHiendsNVPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHiendsNVPB.Name = "btnHiendsNVPB";
-            this.btnHiendsNVPB.Size = new System.Drawing.Size(75, 23);
+            this.btnHiendsNVPB.Size = new System.Drawing.Size(56, 19);
             this.btnHiendsNVPB.TabIndex = 2;
             this.btnHiendsNVPB.Text = "Hiện";
             this.btnHiendsNVPB.UseVisualStyleBackColor = true;
@@ -68,18 +71,20 @@ namespace BTL_HuongSuKien.Forms
             // dgvNhanvienPB
             // 
             this.dgvNhanvienPB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNhanvienPB.Location = new System.Drawing.Point(43, 71);
+            this.dgvNhanvienPB.Location = new System.Drawing.Point(32, 58);
+            this.dgvNhanvienPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvNhanvienPB.Name = "dgvNhanvienPB";
             this.dgvNhanvienPB.RowHeadersWidth = 51;
             this.dgvNhanvienPB.RowTemplate.Height = 24;
-            this.dgvNhanvienPB.Size = new System.Drawing.Size(725, 201);
+            this.dgvNhanvienPB.Size = new System.Drawing.Size(654, 163);
             this.dgvNhanvienPB.TabIndex = 3;
             // 
             // btnTongNV
             // 
-            this.btnTongNV.Location = new System.Drawing.Point(284, 295);
+            this.btnTongNV.Location = new System.Drawing.Point(213, 240);
+            this.btnTongNV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTongNV.Name = "btnTongNV";
-            this.btnTongNV.Size = new System.Drawing.Size(89, 23);
+            this.btnTongNV.Size = new System.Drawing.Size(67, 19);
             this.btnTongNV.TabIndex = 4;
             this.btnTongNV.Text = "Hiện";
             this.btnTongNV.UseVisualStyleBackColor = true;
@@ -88,23 +93,25 @@ namespace BTL_HuongSuKien.Forms
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 301);
+            this.label2.Location = new System.Drawing.Point(47, 245);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(215, 17);
+            this.label2.Size = new System.Drawing.Size(163, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tổng nhân viên theo phòng ban:";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 552);
+            this.ClientSize = new System.Drawing.Size(751, 448);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnTongNV);
             this.Controls.Add(this.dgvNhanvienPB);
             this.Controls.Add(this.btnHiendsNVPB);
             this.Controls.Add(this.cboxPhongban);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);

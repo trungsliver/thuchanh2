@@ -1,0 +1,6 @@
+sửa phòng ban và chức vụ thành commobox/listbox (nên sửa thành listbox để tránh lỗi nhập vào như commobox)
+để mã tự động tăng => thông tin trùng nhau vẫn thêm được
+giới tính sửa thành radio btn
+bắt ràng buộc dữ liệu (sđt không trùng, ngày sinh nhỏ hơn ngày hiện tại)
+dùng try catch bắt lỗi
+khi xóa hiển thị thông báo confirm

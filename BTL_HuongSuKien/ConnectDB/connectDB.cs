@@ -10,7 +10,7 @@ namespace BTL_HuongSuKien
         public SqlConnection getConnect()
         {
             //connect string here
-            String strConn = ConfigurationManager.ConnectionStrings["conect"].ConnectionString;
+            String strConn = ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
             return new SqlConnection(strConn);
         }
         public DataTable getTable(String sql)
