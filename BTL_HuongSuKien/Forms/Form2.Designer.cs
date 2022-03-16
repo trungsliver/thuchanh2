@@ -52,7 +52,7 @@ namespace BTL_HuongSuKien.Forms
             // 
             this.cboxPhongban.FormattingEnabled = true;
             this.cboxPhongban.Location = new System.Drawing.Point(95, 16);
-            this.cboxPhongban.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxPhongban.Margin = new System.Windows.Forms.Padding(2);
             this.cboxPhongban.Name = "cboxPhongban";
             this.cboxPhongban.Size = new System.Drawing.Size(124, 21);
             this.cboxPhongban.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace BTL_HuongSuKien.Forms
             // btnHiendsNVPB
             // 
             this.btnHiendsNVPB.Location = new System.Drawing.Point(248, 17);
-            this.btnHiendsNVPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHiendsNVPB.Margin = new System.Windows.Forms.Padding(2);
             this.btnHiendsNVPB.Name = "btnHiendsNVPB";
             this.btnHiendsNVPB.Size = new System.Drawing.Size(56, 19);
             this.btnHiendsNVPB.TabIndex = 2;
@@ -72,7 +72,7 @@ namespace BTL_HuongSuKien.Forms
             // 
             this.dgvNhanvienPB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvNhanvienPB.Location = new System.Drawing.Point(32, 58);
-            this.dgvNhanvienPB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvNhanvienPB.Margin = new System.Windows.Forms.Padding(2);
             this.dgvNhanvienPB.Name = "dgvNhanvienPB";
             this.dgvNhanvienPB.RowHeadersWidth = 51;
             this.dgvNhanvienPB.RowTemplate.Height = 24;
@@ -82,7 +82,7 @@ namespace BTL_HuongSuKien.Forms
             // btnTongNV
             // 
             this.btnTongNV.Location = new System.Drawing.Point(213, 240);
-            this.btnTongNV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTongNV.Margin = new System.Windows.Forms.Padding(2);
             this.btnTongNV.Name = "btnTongNV";
             this.btnTongNV.Size = new System.Drawing.Size(67, 19);
             this.btnTongNV.TabIndex = 4;
@@ -111,7 +111,7 @@ namespace BTL_HuongSuKien.Forms
             this.Controls.Add(this.btnHiendsNVPB);
             this.Controls.Add(this.cboxPhongban);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);

@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BTL_HuongSuKien.Forms
@@ -22,17 +16,18 @@ namespace BTL_HuongSuKien.Forms
             string getdt = "select ten_phong_ban as[Tên phòng ban] from phong_ban";
             connectDB db = new connectDB();
             DataTable table = db.getTable(getdt);
-            foreach(DataRow i in table.Rows) {
+            foreach (DataRow i in table.Rows)
+            {
                 cboxPhongban.Items.Add(i["Tên phòng ban"]);
             }
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             string tenpb = cboxPhongban.SelectedItem.ToString();
-/*            MessageBox.Show(tenpb);*/
-            string getdt = "exec NV_PhongBan @phongban=N'"+tenpb+"'";
+            /*            MessageBox.Show(tenpb);*/
+            string getdt = "exec NV_PhongBan @phongban=N'" + tenpb + "'";
             connectDB db = new connectDB();
             load_dgvNhanvienPB(db.getTable(getdt));
         }

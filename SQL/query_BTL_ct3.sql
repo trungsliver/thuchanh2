@@ -159,7 +159,7 @@ select * from luong;
 <-- tìm nhân viên theo tên
 SELECT * FROM nhan_vien WHERE ten_nhan_vien LIKE '%Bui Duc Trung%'
 
-alter view dsChucVu as select id as [Mã chức vụ], ten_chuc_vu as [Tên chức vụ], so_tien_phu_cap as [Phụ cấp] from chuc_vu
+create view dsChucVu as select id as [Mã chức vụ], ten_chuc_vu as [Tên chức vụ], so_tien_phu_cap as [Phụ cấp] from chuc_vu
 select * from dsChucVu
 
 create proc themChucVu 
@@ -240,7 +240,7 @@ ngay_sinh as [Ngày sinh],
 dia_chi as [Địa chỉ], 
 sdt as [Số điện thoại], 
 gioi_tinh as [Giới tính] 
-from nhan_vien where trang_thai=1 and 
+from nhan_vien where trang_thai=1 
 select * from dsNhanVien
 
 <-- Hiển thị nhân viên theo tên phòng ban
